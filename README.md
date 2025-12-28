@@ -11,26 +11,31 @@ It demonstrates clean backend architecture, modular design, and real-world API s
 - Clear separation of routes, services, models, and utilities  
 
 ## 🏗️ Project Structure
+## 🏗️ Project Structure
+
+```
 FlowGaurd/
 ├── app/
-│ ├── main.py # Application entry point
-│ │
-│ ├── models/
-│ │ └── workflow.py # Workflow data models
-│ │
-│ ├── routes/
-│ │ └── validate.py # API routes for validation
-│ │
-│ ├── services/
-│ │ ├── ai_engine.py # AI-based logic handling
-│ │ └── rules.py # Rule evaluation logic
-│ │
-│ └── utils/
-│ └── prompts.py # Prompt templates & helpers
+│   ├── main.py                 # Application entry point
+│   │
+│   ├── models/
+│   │   └── workflow.py         # Workflow data models
+│   │
+│   ├── routes/
+│   │   └── validate.py         # API routes for validation
+│   │
+│   ├── services/
+│   │   ├── ai_engine.py        # AI-based logic handling
+│   │   └── rules.py            # Rule evaluation logic
+│   │
+│   └── utils/
+│       └── prompts.py          # Prompt templates & helpers
 │
-├── requirements.txt # Project dependencies
-├── .gitignore # Ignored files and folders
-└── README.md # Project documentation
+├── requirements.txt            # Project dependencies
+├── .gitignore                  # Ignored files and folders
+└── README.md                   # Project documentation
+```
+
 
 ## ⚙️ Tech Stack
 
@@ -46,5 +51,6 @@ git clone https://github.com/Lasya504/FlowGaurd.git
 cd FlowGaurd
 pip install -r requirements.txt
 python app/main.py
+
 
 
