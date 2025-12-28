@@ -11,7 +11,6 @@ It demonstrates clean backend architecture, modular design, and real-world API s
 - Clear separation of routes, services, models, and utilities  
 
 ## 🏗️ Project Structure
-## 🏗️ Project Structure
 
 ```
 FlowGaurd/
@@ -51,6 +50,7 @@ git clone https://github.com/Lasya504/FlowGaurd.git
 cd FlowGaurd
 pip install -r requirements.txt
 python app/main.py
+
 
 
 
